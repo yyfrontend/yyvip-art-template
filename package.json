@@ -1,0 +1,46 @@
+{
+  "name": "yyvip-art-template",
+  "description": "JavaScript Template Engine",
+  "homepage": "http://aui.github.com/art-template/",
+  "version": "4.10.1",
+  "keywords": [
+    "template"
+  ],
+  "author": "chhu1 <1411365142@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/yyfrontend/yyvip-art-template.git"
+  },
+  "main": "index.js",
+  "files": [
+    "lib/"
+  ],
+  "engines": {
+    "node": ">= 1.0.0"
+  },
+  "dependencies": {
+    "acorn": "^5.0.3",
+    "detect-node": "^2.0.3",
+    "escodegen": "^1.8.1",
+    "estraverse": "^4.2.0",
+    "html-minifier": "^3.4.3",
+    "is-keyword-js": "^1.0.3",
+    "js-tokens": "^3.0.1",
+    "merge-source-map": "^1.0.3",
+    "source-map": "^0.5.6"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-core": "^6.24.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-loose": "^8.0.0",
+    "coveralls": "^2.13.0",
+    "eslint": "^3.19.0",
+    "eslint-loader": "^1.7.1",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "node-noop": "^1.0.0",
+    "webpack": "^3.0.0"
+  },
+  "license": "MIT"
+}
