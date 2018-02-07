@@ -4,6 +4,10 @@ yyvip-art-template is forked from art-template.
 
 support webpack resolveModules
 
+```
+npm install --save yyvip-art-template
+```
+
 ## art-template
 
 art-template 是一个渲染性能出众模板引擎，无论在 NodeJS 还是在浏览器中都可以运行。
@@ -12,7 +16,7 @@ art-template 是一个渲染性能出众模板引擎，无论在 NodeJS 还是�
 
 ## updated
 
-- update convertFilenameNode, is a function to get reletivePath. `lib/precompile.js`
+- update convertFilenameNode, is a function to get relativePath. `lib/precompile.js`
 
 ```javascript
 function convertFilenameNode() {
